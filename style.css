@@ -1,0 +1,38 @@
+body{
+    background-color: cornflowerblue;
+    width: 1140px;
+    height: 800px;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(50%, -50%);
+}
+form{
+  background-color: aliceblue;
+}
+form p{
+    color: #030303;
+    opacity: 0.7;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,0.2);
+}
+form input{
+    background-color:rgb(237, 230, 230);
+    padding: 1em;
+    border: none;
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    text-align: center;
+    color: #6a07ff;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5000px;
+}
+form input:hover{
+    background: rgba(255, 255, 255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0,0.2);
+}
